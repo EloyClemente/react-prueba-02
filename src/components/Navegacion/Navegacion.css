@@ -1,0 +1,20 @@
+.Navegacion{
+	height: 50px;
+	border-bottom: 1px solid silver;
+}
+
+.Navegacion ul{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	height: 100%;
+}
+
+.Navegacion ul li{
+	padding: 15px;
+}
+
+.link-activo{
+	color: pink;
+	transition: all, .3s;
+}

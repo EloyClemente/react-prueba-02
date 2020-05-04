@@ -1,38 +1,33 @@
-.App {
-  text-align: center;
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+color: #333;
+font-family: sans-serif;
+-webkit-tap-highlight-color: transparent;
+-webkit-overflow-scrolling: touch; /* Para el scroll fluido en IOS */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+ul, li {
+list-style: none;}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+a:link, a:visited, a:hover, a:active {
+text-decoration: none;}
 
-.App-link {
-  color: #61dafb;
-}
+input[type="text"], 
+input[type="password"],
+input[type="tel"],
+input[type="email"],
+input[type="search"],
+input[type="submit"],
+input[type="reset"],
+input[type="button"],
+textarea{
+outline: none;}
+/*--------------------------------------------*/
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.login{
+	height: 30px;
+	border-bottom: 1px solid silver;
 }
